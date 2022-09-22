@@ -1,0 +1,221 @@
+body {
+    background-color: #ff9eb2;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.header {
+    font-size: xx-large;
+}
+
+.main {
+    padding: 15px 15px 15px 15px;
+}
+
+.intro{
+    font-size: large;
+}
+
+.intro p {
+    margin: 0;
+}
+
+.header,
+.intro {
+    color:  #e8114e;
+}
+
+.header,
+.intro,
+.footer {
+    font-weight: bold;
+    text-align: center;
+}
+
+.header,
+.footer {
+    padding: 15px;
+}
+
+.regras {
+    font-weight: bold;
+    margin: 0 250px;
+    color: #67001d;
+}
+
+.reg {
+    margin: 20px 60px;
+}
+
+.regras ol {
+    margin: 20px;
+    font-size: small;
+}
+
+.container {
+    background-color: #e8114e;
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.jogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.coluna1,
+.coluna2,
+.coluna3 {
+    margin: 4px 3px;
+}
+
+.linha1,
+.linha2,
+.linha3,
+.linha4,
+.linha5,
+.linha6,
+.linha7,
+.linha8,
+.linha9 {
+    height: 90px;
+    width: 90px;
+    background-color: #FFF;
+    color: #e8114e;
+    font-weight: bold;
+    font-size: xxx-large;
+    border-radius: 10%;
+    margin: 2px 2px;
+    border: 0;
+}
+
+.linha1:hover,
+.linha2:hover,
+.linha3:hover,
+.linha4:hover,
+.linha5:hover,
+.linha6:hover,
+.linha7:hover,
+.linha8:hover,
+.linha9:hover {
+    background-color: #f3d3d9;
+    cursor: pointer;
+}
+
+.footer {
+    position: relative;
+    color: #67001d;
+    font-size: medium;
+    width: calc(100% - 30px);
+}
+
+@media screen and (min-width: 900px) and (max-width: 1048px) {
+    
+    .regras {
+        font-weight: bold;
+        margin: 0 200px;
+    }
+    
+    .reg {
+        margin: 20px 60px;
+    }
+    
+    .regras ol {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    
+    .regras {
+        font-weight: bold;
+        margin: 0 100px;
+    }
+    
+    .reg {
+        margin: 20px 60px;
+    }
+    
+    .regras ol {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    
+    .regras {
+        font-weight: bold;
+        font-size: large;
+        margin: 0 50px;
+    }
+    
+    .reg {
+        margin: 20px 60px;
+    }
+    
+    .regras ol {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 500px) {
+    
+    .regras {
+        font-weight: bold;
+        font-size: large;
+        margin: 0 20px;
+    }
+    
+    .reg {
+        margin: 20px 60px;
+    }
+    
+    .regras ol {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 430px) {
+    
+    .regras {
+        font-weight: bold;
+        font-size: large;
+        margin: 0 10px;
+    }
+    
+    .reg {
+        margin: 20px 60px;
+    }
+    
+    .regras ol {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 270px) and (max-width: 370px) {
+    
+    .regras {
+        font-weight: bold;
+        font-size: large;
+        margin: 0 3px;
+    }
+    
+    .reg {
+        margin: 20px 60px;
+    }
+    
+    .regras ol {
+        margin: 20px;
+    }
+
+}
